@@ -15,4 +15,4 @@ takeDecision('West') :-
     hasValue('sensor1', 'False'), !.
 
 takeDecision('Est') :-
-hasValue8('sensor8', 'False').
+    hasValue('sensor8', 'False').
